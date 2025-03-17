@@ -1,54 +1,75 @@
-# React + TypeScript + Vite
+# Wobb Influencer Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Wobb Influencer Portal responsive web redesign project. This project aims to transform the existing Wobb mobile application into a responsive web application using React.js, ensuring a seamless experience across desktop, tablet, and mobile devices.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Wobb is an influencer marketing platform connecting influencers with brands for collaboration opportunities. The platform enables influencers to:
 
-## Expanding the ESLint configuration
+- Browse and apply to campaigns that suit their niche.
+- Collaborate with brands.
+- Receive rewards through various payout types like barter, refunds, and fixed pay.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The objective of this project is to redesign the Wobb app's homepage for the web, focusing on a visually appealing, organized, and user-friendly interface that adapts seamlessly to various screen sizes.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Features
+
+- **Responsive Design:** Ensures optimal viewing and interaction across a wide range of devices.
+- **Campaign Cards:** Displays essential details for each campaign, including brand name, payout details, hiring progress, visuals, and descriptions.
+- **Search and Filter:** Allows influencers to search and filter campaigns based on categories, payout types, or popularity.
+- **Navigation Menu:** Provides easy access to other sections like 'Wobble', 'Messages', and 'Profile'.
+
+## Getting Started
+
+### Prerequisites
+
+[Node.js](https://nodejs.org/en/download) (version 20 or higher)
+
+## Design Choices
+
+### Color Scheme
+
+- Primary Color: 0095ff (Blue) - Highlights actionable elements like buttons and links.
+- Secondary Color: #FFFFFF (White) - Ensures a clean and minimalist look.
+- Accent Color: #d7e6f9 (Light Blue) - Used for muted elements such as background highlights, info boxes, or inactive states to ensure a soft, visually appealing contrast.
+
+### Typography
+
+**Primary Font:** 'Roboto', sans-serif - Chosen for its readability and modern appearance.
+
+**Font Sizes:**  
+Headings: 30px  
+Subheadings: 18px  
+Body Text: 16px
+
+### Spacing and Layout
+
+**Grid System:** Utilizes CSS Grid and Flexbox for responsive layouts.  
+**Margins and Padding:** Consistent spacing of 16px for uniformity.  
+**Card Design:** Campaign cards have subtle shadows and rounded corners to enhance visual appeal.
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Lohit-Behera/wobb-assignment.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Go to the project directory
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+  cd wobb-assignment
+```
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
 ```

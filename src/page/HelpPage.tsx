@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
 import { motion } from "framer-motion";
-import { ChevronDown, ChevronUp, Search } from "lucide-react";
+import { ChevronDown, Search } from "lucide-react";
 import {
   Accordion,
   AccordionContent,

@@ -48,6 +48,18 @@ Body Text: 16px
 **Margins and Padding:** Consistent spacing of 16px for uniformity.  
 **Card Design:** Campaign cards have subtle shadows and rounded corners to enhance visual appeal.
 
+## Screenshots
+
+If you would like to watch a video demonstration of this project, here is the [Google Drive link](https://drive.google.com/drive/folders/1hzSOWP-IH0lEuCV8hHqQYXMOdo3Fsu9z?usp=drive_link).
+
+![App Screenshot](https://drive.usercontent.google.com/download?id=1c8c-1LvBvHwrjvyV4ePlW7ynAaufpmrL)
+
+![App Screenshot](https://drive.usercontent.google.com/download?id=1S7OC9hPki-TsJdXWZvxuOIlgkwtsdWl8)
+
+![App Screenshot](https://drive.usercontent.google.com/download?id=1NcPxdx8ahqY5anw8Nt9S-bIsTKDHrGzP)
+
+![App Screenshot](https://drive.usercontent.google.com/download?id=1t8TOsdLSgryCD9g2GDSeay92Q5Z__wGc)
+
 ## Run Locally
 
 Clone the project
